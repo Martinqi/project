@@ -1,0 +1,35 @@
+.thumb{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    background: #fff100;
+}
+.show{
+    width: 680px;
+    height: 640px;
+    border: 1px solid #afd9ee;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.show .biaoti{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.show .time{
+    text-align: center;
+    color: #999999;
+}
+.show .xiangqing{
+    text-indent: 25px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+p{
+    padding: 10px 0;
+}

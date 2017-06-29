@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+}
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-left: 75px;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.logo a{
+    color: #00a8ff;
+}
+.logo img{
+    height: 100%;
+}
+.logo span:nth-of-type(1){
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    font-size: 17px;
+}
+.logo span:nth-of-type(2){
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    font-size: 15px;
+}
+.head{
+    background : transparent;
+    width: auto;
+    height : 60px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 75px;
+}
+ul.nav {
+    background : transparent;
+    width: auto;
+    height : 57px;
+    line-height : 31px;
+    list-style : none;
+    padding : 0 10px;
+    font-size : 14px;
+
+}
+ul.nav li {
+    display : inline;
+    padding : 0;
+    background : transparent;
+}
+ul.nav a {
+    background : transparent;
+    height : 30px;
+    font-size : 16px;
+    color : #808080;
+    float : left;
+    padding : 11px 19px 11px 16px;
+    text-decoration : none;
+    border-top: 1px solid #252525;
+    border-bottom : 4px solid #252525;
+    border-left : 1px solid transparent;
+    border-right : 1px solid transparent;
+    border-radius : 4px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius: 4px;
+}
+ul.nav a:hover {
+    background : #252525;
+    border-top : 1px solid #252525;
+    border-bottom : 4px solid #000;
+    border-left : 1px solid #252525;
+    border-right : 1px solid #252525;
+    color : #FFF;
+    padding : 11px 19px 11px 16px;
+    -moz-border-radius : 4px;
+    -webkit-border-radius: 4px;
+    border-radius : 4px;
+}
+button{
+    padding: 5px 15px;
+    background: #32abff;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    right: 60px;
+    bottom: 250px;
+}
+.neirong{
+    transition: all .2s;
+}
+.neirong:hover{
+    cursor: pointer;
+    background: #63f0d0;
+    transform: scale(1.02);
+    color: #fff;
+    border-radius: 6px;
+}
+
+/*banner*/
+.banner{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    width: 500%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner ul li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.right{
+    width: 65px;
+    height: 65px;
+    background: rgba(255,255,255,.6);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "宋体";
+    display: none;
+    border-radius: 50%;
+}
+.left{
+    width: 65px;
+    height: 65px;
+    background: rgba(255,255,255,.6);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "宋体";
+    transition: all 0.2s;
+    display: none;
+    border-radius: 50%;
+}
+.demo{
+    letter-spacing:6px;
+    font-family: "黑体";
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+}
+section.top{
+    width: 100%;
+    height: 35px;
+    background: #88affa;
+    margin-top: 0;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #51C7E5;
+    margin-top: 60px;
+    padding-left: 120px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.recent{
+    float: left;
+}
+.recent p{
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+.recent li{
+    line-height: 20px;
+    font-size: 12px;
+    color: #eeeeee;
+}
+.Resources{
+    float: left;
+    margin-left: 200px;
+}
+.Resources p{
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+}
+.Resources li{
+    line-height: 20px;
+    font-size: 12px;
+    color: #eeeeee;
+}
+.ma{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    position: relative;
+}
+.ma img{
+    height: 100%;
+}
+.logobox{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    left: 55px;
+    top: 55px;
+}
+a.mao{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    left: 50%;top: 20px;
+    font-family: "宋体";
+}
+

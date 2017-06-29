@@ -1,0 +1,427 @@
+@import url(kuangjia.css);
+@import url(qxbk.css);
+@font-face {
+	font-family: 'iconfont';
+	src: url('iconfont.eot');
+	src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+	url('iconfont.woff') format('woff'),
+	url('iconfont.ttf') format('truetype'),
+	url('iconfont.svg#iconfont') format('svg');
+}
+@media screen and (max-width: 600px){
+/*banner导航响应*/
+	div.sav-box a{
+	width:29.3%;
+	height:68px;
+	float:left;
+	margin-left: 15px;
+    /*background: yellow;*/
+    text-align: center;
+    line-height: 68px;
+}
+
+div.sav-box{
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+	/*background: red;*/
+	overflow: hidden;
+}
+.works-list .content .row a{
+		width: 100%;
+	}
+	div.content .row div.img{
+		width:50%;
+	}
+	div.about div.content .row span.gh{
+		font-size: 26px;
+		font-weight: bold;
+		margin-top: 60px;
+		margin-left: 20%;
+		margin-right:20%;
+		display: block;
+	}
+}
+@media screen and (max-width: 420px){
+/*banner导航响应*/
+div.sav-box a{
+	width:44%;
+	height:68px;
+	float:left;
+	margin-left: 15px;
+    /*background: yellow;*/
+    text-align: center;
+    line-height: 68px;
+}
+div.sav-box{
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+	/*background: red;*/
+	overflow: hidden;
+}
+div.content .row div.img{
+	width: 100%;
+}
+	div.about .content .row span.gh{
+		font-size: 26px;
+		font-weight: bold;
+		margin-top: 60px;
+		margin-left: 15%;
+		margin-right: 15%;
+		display: block;
+	}
+}
+	
+/*banner开始*/
+.banner{
+	width: 100%;
+	height:475px;
+	background: #CDCEC8;
+	background-image: url("../img/banner.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 1400px;
+}
+.banner > .content > .row div.sav{
+	height: auto;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	/*background: #CDCEC8;*/
+	margin-top: 136px;
+    overflow: hidden;
+}
+.sav-box{
+	height: auto;
+	width: 500px;
+	margin:0 auto;
+	/*background: red;*/
+	overflow: hidden;
+}
+.sav-box a{
+	width:22%;
+	height:68px;
+	float:left;
+	margin-left: 15px;
+    background: #D7DBD8;
+    text-align: center;
+    line-height: 68px;
+    color: #D87691;
+}
+.sav-box a:hover{
+	background: #fff;
+
+}
+/*banner导航结束*/
+/*关于我的技术*/
+.banner-bottom{
+	height: 145px;
+	width:100%;
+	font-size:30px;
+	color:#A1B3A4;
+	text-align: center;
+	line-height: 145px;
+	/*background: red;*/
+}
+/*个人技术展示*/
+.about .content .row div{
+	height: 528px;
+	background: #EDFBEF;
+	background-clip:content-box;
+	border-radius: 30px;
+	transition: all 0.2s;
+}
+.about .content .row div[class="col-lg-4 col-md-4 col-sm-12 col-xs-12"]:hover{
+	transform: scale(1.02);
+;
+}
+div [class="col-lg-8 col-md-8 col-sm-12 col-xs-12"]:hover{
+	transform: scale(1.02);
+}
+.about .content .row div.circle{
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	background: blue;
+	display: block;
+	margin:0 auto;
+	margin-top: 56px;
+	margin-bottom: 30px;
+	background-image:url("../img/ren.jpg");
+	background-size:350px;
+}
+.about .content .row div.name{
+	margin:0 auto;
+	/*background: red;*/
+	width:160px;
+	height:40px;
+	font-family: "苹方";
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 13px;
+	color:#33333A;
+}
+
+.about .content .row div.gh{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 60px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	/*background: yellow;*/
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"]{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	line-height: 66px;
+	text-align: center;
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(2){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(3){
+	width: 50%;
+	height: 5px;
+	/*background: pink;*/
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#ccc 98%,#fff 2%);
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(4){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(5){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(6){
+	width: 50%;
+	height: 5px;
+	margin-top: 30px;
+	/*background: pink;*/
+	background-image: linear-gradient(to right,#ccc 96%,#fff 4%);
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(7){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(8){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(9){
+	width: 50%;
+	height: 5px;
+	/*background: pink;*/
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#ccc 96%,#fff 4%);
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(10){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(11){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(12){
+	width: 50%;
+	height: 5px;
+	/*background: pink;*/
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#ccc 94%,#fff 6%);
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(13){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+/*待续*/
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(14){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(15){
+	width: 50%;
+	height: 66px;
+	/*background: pink;*/
+}
+.about .content .row div[class="col-lg-8 col-md-8 col-sm-12 col-xs-12"] div:nth-of-type(16){
+	width: 20%;
+	height: 66px;
+	/*background: red;*/
+}
+/*待续*/
+.content .row div.lianxi{
+	width: 60%;
+	height: 60px;
+	/*background: red;*/
+	margin: 0 auto;
+	font-size: 32px;
+	line-height: 60px;
+	text-align: center;
+}
+.iconfont{
+	font-family: 'iconfont';
+	src: url('iconfont.eot');
+	src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+	url('iconfont.woff') format('woff'),
+	url('iconfont.ttf') format('truetype'),
+	url('iconfont.svg#iconfont') format('svg');
+}
+a.iconfont:hover{
+	font-size:35px;
+}
+div.lianxi a:nth-child(1){
+	color: #0070C9;
+}
+div.lianxi a:nth-child(2){
+	color: #DA251C;
+}
+div.lianxi a:nth-child(3){
+	color: #55a532;
+}
+div.lianxi a:nth-child(4){
+	color: #221F34;
+}
+
+/*个人技术展示结束*/
+/*我的作品*/
+.works-top{
+	height: 145px;
+	width:100%;
+	font-size:30px;
+	color:#A1B3A4;
+	text-align: center;
+	line-height: 145px;
+	/*background: red;*/
+}
+.works-list .content .row a{
+	height: 352px;
+	background: #EDFBEF;
+	background-clip:content-box;
+	margin-top: 20px;
+	border-radius: 30px;
+	transition: all 0.2s;
+	position: relative;
+	background-image: url("../img/true.jpg");
+	background-size: 100%;
+}
+
+
+.works-list .content .row a div {
+	width: 100%;
+	height: 0px;
+	background:#397677;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 15px;
+	box-sizing: border-box;
+	background-clip: content-box;
+	transform-origin: bottom center;
+	transition: all 1s;
+	opacity: 0;
+	border-radius: 0 0 25px 25px;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+}
+.works-list .content .row a:hover div{
+	height: 100px;
+	opacity: 1;
+}
+
+.works-list .content .row a:hover{
+	transform: scale(1.02);
+
+}
+/*我的作品结束*/
+/*联系我*/
+.Contact{
+	width: 100%;
+	height: 127px;
+	text-align: center;
+	/*background: red;*/
+	padding-top: 80px;
+	box-sizing: border-box;
+	font-size:30px;
+	color:#A1B3A4;
+}
+.contact-bottom{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+.content .row div input{
+	height: 40px;
+	border: 1px solid #EEEEEE;
+	width: 100%
+}
+.content .row div input.Email{
+	margin-top: 30px;
+}
+input [type=email]:invalid{
+	color: red;
+}
+textarea{
+	width:99.2%;
+	height: 70px;
+	margin-top: 20px; 
+	border: 1px solid #EEEEEE;
+}
+.content .row div input.Send{
+	width: 90px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	background: #A1B3A4;
+	margin-top: 20px;
+}
+.content .row div input.Send:hover{
+	background: #000;
+}
+.content .row div.img{
+	width:25%;
+	height: 150px;
+	background: #EDFBEF;
+	float: left;
+	padding:10px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-clip: content-box;
+	background-image: url("../img/4.jpg");
+	background-position: center center;
+}
+.content .row div.img:hover{
+	transform: scale(1.1);
+}
+/*联系我结束*/
+/*底部*/
+div.content div.row div#bottom{
+	height: 50px;
+	border-top: 1px solid #000;
+	text-align: center;
+	/*background: red;*/
+	line-height: 50px;
+	color: #9A8C8C;
+	margin-top: 50px;
+}
+div.content div.row div#bottom-box {
+	text-align: center;
+}
